@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/Logo.png "/>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#Portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-sharp fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul><br/>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>React Developer</p>
+                    <p>HTML CSS JS Developer</p>
+                    <h1><span>Sonam</span><br> khanna <br/>from India</h1>
+                </div>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <h1 class="as">About Me</h1>
+                <div class="row">
+
+                    <div class="about-col-1">
+                        <img class="userimg" src="images/photo1.jpg"/>
+                    </div>
+                    <div class="about-col-2">
+                        
+                        <p>I am full Stack Developer.</p>
+                            <ul><li>
+                         HTML/CSS: HTML is a markup language, and CSS is the style sheet language 
+                         used to present the information written in HTML. Together, HTML and CSS 
+                         create the look of web pages. HTML defines the structure, colors,
+                          and other visual elements, while CSS arranges their aesthetics visually.
+                          JavaScript: JavaScript is a high-level programming language conforming
+                           to the ECMAScript specification. Alongside HTML and CSS, it ranks 
+                           among the three core technologies of the internet.</li>
+                       <li> Java: As a general-purpose programming language, Java features class-based, 
+                        concurrent, object-oriented functions. Designed to minimize implementation 
+                        dependencies, Java allows application developers to "write once, run 
+                        anywhere." Java is one of the most popular programming languages, 
+                        especially for client-server software applications.</li>
+                       <li> C#: This general-purpose programming language comprises functional,
+                         declarative, object-oriented, component-oriented, and generic programming 
+                         disciplines. Developed by Microsoft within the .NET initiative, 
+                         C# received approval as a standard by ISO and ECMA.</li>
+                       <li> Python: Python is an interpreted, general-purpose, high-level programming 
+                        language. Python's design philosophy emphasizes readability by using 
+                        significant whitespace and providing clear programming on large and small 
+                        scales.</li>
+                        </ul>
+                             </p>
+                             <div class="tab-titles" >
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links"onclick="opentab('education')">Education</p>
+                             </div>
+                             <div class="tab-content active-tab" id="skills">
+                                <ul>
+                                    <li><span>React Developer</span><br>Desigining web/App interfaces
+                                    <p>Newton School</p> </li>
+                                    <li><span>Full Stack Web development</span><br>Desigining web/App interfaces 
+                                    <p>Newton School</p></li>
+                                    <li><span>UX/UI</span><br>Desigining web/App interfaces 
+                                    <p>Newton School</p></li>
+                                    <li><span>Python Course</span><br>Desigining web interfaces<p>Intersnhala</p>
+                                     </li>
+                                     <li><span>Software Testing Course</span><br>Test with JIRA<p>Seed Infotech,Gurgaon</p>
+                                     </li>
+                                    <li><span>.net Course</span><br>Desigining App interfaces
+                                    <p>From NIIT,Delhi</p> </li>
+                                </ul>
+                             </div>
+                             <div class="tab-content"id="experience">
+                                <ul>
+                                    <li><span>WordPress Developer</span><br>Desigining web/App interfaces
+                                    <p>Digicom,Sonipat</p> </li>
+
+                                    <li><span>Making Web pages</span><br>Desigining web/App interfaces </li>
+                                    <li><span>Desigining </span><br>Desigining web interfaces </li>
+                                    <li><span>App Development</span><br>Desigining App interfaces </li>
+                                </ul>
+                             </div>
+                             <div class="tab-content"id ="education">
+                                <ul>
+                                   
+                                    <li><span>BE CSE</span><br>Computer science Enggineering <br/>
+                                       <p> Bhagwan Parshuram College of Enggineering,Gohana,Sonipat</p>
+                                    </li>
+
+                                    <li><span>App Development</span><br>Desigining App interfaces </li>
+                                   
+                                </ul>
+                             
+                             </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Services">
+            <div class="container">
+                <h1 class="sub-titles">Services</h1>
+                <div class ="service-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Recusandae, repudiandae.</p>
+                            <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-duotone fa-crop"></i>
+                        <h2>Ui Ux Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Recusandae, repudiandae.</p>
+                            <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Recusandae, repudiandae.</p>
+                            <a href="#">learn more</a>
+                    </div>
+                </div>
+                </div>
+        </div>
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-titles">My work</h1>
+            <div class="work-list">
+                
+                <ul>
+                    
+                    <li><img src="images/reacct.png" onclick="chat()"/>
+                        <h3>Chat app</h3>
+                       
+                    </li>
+                    <li><img src="images/s1.jpeg.png" onclick="si()"/>
+                        <h3>Simple Interest</h3>
+                    </li>
+                     <li><img src="images/tip.jpg.png" onclick="tip()"/>
+                        <h3>Tip Calculator</h3>
+                     
+                    </li>
+                     <li><img src="/images/jsdraw.png" onclick="draw()"/>
+                        <h3>Js Drawing app</h3>
+                    </li>
+                    <li><img src="images/testi.jpeg.png" onclick="testi()"/>
+                        <h3>Testinomial App</h3>
+                        
+                </li>
+                    <li><img src="images/My first web page.png" onclick="first()"/>
+                        <h3> My first web page on window 7</h3>
+                    </li>
+                    <li><img src="images/stopwatch.png" onclick="stopw()"/>
+                        <h3> Stopwatch</h3>
+                    </li>
+                </ul>
+            </div>
+        
+    
+</div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <h1 class="sub-title">Contact Me</h1>
+            <div class="row">
+            
+                <div class="contact-left">
+                   
+                    <p><i class="fa-sharp fa-regular fa-envelope"></i>khanna.sonam0@gmail.com</p>
+                    <p><i class="fa-sharp fa-regular fa-phone"></i>8930552183</p>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/khanna.sonam0"><i class="fa-brands fa-facebook"></i></a>
+                        
+                        <a href="https://www.instagram.com/sonamkhanna12/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sonamkhanna/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <a href="images/sonamkhanna.pdf.pdf"download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-rigth">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required/>
+                        <input type="email" name="Email" placeholder="Your Email" required/>
+                        <textarea name="Message" rows="6"placeholder="Your Message"></textarea>
+                        <button type="submit"class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+
+        </div>
+    <div class="copyright">
+        <p>copyright @ sonam khanna .<i class="fa-solid fa-heart"></i></p>
+    </div>
+    </div>
+        <script src="script.js" async defer></script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwvNgebEVYEPCkzceaq24c3bzZzalErnMpoepCXLytyD4iWmUkUicYcmdbgPXA76Tw4/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg");
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=" "
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
